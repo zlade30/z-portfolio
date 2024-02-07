@@ -3,6 +3,9 @@ module.exports = {
     content: ['./src/pages/**/*.{js,ts,jsx,tsx,mdx}', './src/components/**/*.{js,ts,jsx,tsx,mdx}', './src/app/**/*.{js,ts,jsx,tsx,mdx}'],
     theme: {
         screens: {
+            xs: { max: '639px' },
+            // => @media (min-width: 576px) { ... }
+
             sm: '640px',
             // => @media (min-width: 640px) { ... }
 
@@ -25,9 +28,10 @@ module.exports = {
             },
             colors: {
                 primary: '#BB9080',
-                secondary: '#BB9080',
+                secondary: '#e7d8d2',
                 'text-primary': '#BB9080',
-                'text-secondary': '#BB9080'
+                'text-secondary': '#e7d8d2',
+                hover: '#83655a'
             }
         }
     },

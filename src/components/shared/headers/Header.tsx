@@ -4,7 +4,7 @@ import { UilBars } from '@iconscout/react-unicons';
 const Header = () => {
     return (
         <header className="h-[82px]">
-            <nav className="container flex items-center justify-between h-full mx-auto px-2">
+            <nav className="container flex items-center justify-between h-full mx-auto sm:px-8 xs:px-4">
                 <h1 className="text-[24px] font-extrabold">ZEE.</h1>
                 <ul className="list-none hidden gap-10 text-[14px] font-semibold uppercase hover-underline-animation 2xl:flex lg:flex">
                     <Link href="#">Home</Link>
